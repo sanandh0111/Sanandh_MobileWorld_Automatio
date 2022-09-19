@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="mobile_world.All_mobiles">
+        <methods>
+          <include name="twoCharacter"/>
+          <include name="allMobilespage"/>
+          <include name="order"/>
+          <include name="InvalidMob"/>
+          <include name="wrongSamsung"/>
+          <include name="searchingLenovomobiles"/>
+          <include name="searchingSamsungmubiles"/>
+          <include name="OpeningBrowser"/>
+          <include name="wrongApple"/>
+        </methods>
+      </class> <!-- mobile_world.All_mobiles -->
+      <class name="mobile_world.Sign_In">
+        <methods>
+          <include name="sign"/>
+        </methods>
+      </class> <!-- mobile_world.Sign_In -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
